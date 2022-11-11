@@ -1,0 +1,14 @@
+package java_basics;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int y = 32;
+		double x = 10.232;
+		System.out.println(y);
+		System.out.println(x);
+
+	}
+
+}
