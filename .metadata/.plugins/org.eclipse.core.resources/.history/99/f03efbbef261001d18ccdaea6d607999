@@ -9,8 +9,8 @@ public class Main {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		double x;
-		x = sc.nextDouble();
+		int x;
+		x = sc.nextInt();
 		System.out.println("Você digitou: " + x);
 		
 		sc.close();
