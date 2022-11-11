@@ -12,7 +12,7 @@ public class Main {
 		a = 5;
 		b = 2;
 		
-		resultado = (double) a / b;
+		resultado = a / b;
 		
 		System.out.println(resultado);
 	}
