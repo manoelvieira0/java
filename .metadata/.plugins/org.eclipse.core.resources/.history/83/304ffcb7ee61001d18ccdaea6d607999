@@ -21,11 +21,7 @@ public class Main {
 		System.out.printf("Computer, which price is $ %.2f%n", price1);
 		System.out.printf("Office desk, which price is $ %.2f%n", price2);
 		System.out.printf("%nRecord: %d years old, code %d and gender: %c%n", age, code, gender);
-		System.out.printf("%nMeasue with eight decimal places: %.8f%n", measure);
-		System.out.printf("Rouded (three decimal places): %.3f%n", measure);
-		Locale.setDefault(Locale.US);
-		System.out.printf("US decimal point: 53.235", measure);
-		
+		System.out.printf("Measue with eight decimal places: %.8f%n", price2);
 	}
 
 }
