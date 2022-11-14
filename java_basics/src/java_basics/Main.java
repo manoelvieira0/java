@@ -11,17 +11,23 @@ public class Main {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int number, hour;
-		double value, salary;
+		int code1, code2, number1, number2;
+		double value1, value2, sum;
 		
-		number = sc.nextInt();
-		hour = sc.nextInt();
-		value = sc.nextDouble();
+		System.out.println("Selecione o código, a quantidade e o valor unitário da peça 1: ");
+		code1 = sc.nextInt();
+		number1 = sc.nextInt();
+		value1 = sc.nextDouble();
 		
-		salary = value * hour;
+		System.out.println("Selecione o código, a quantidade e o valor unitário da peça 2: ");
+		code2 = sc.nextInt();
+		number2 = sc.nextInt();
+		value2 = sc.nextDouble();
 		
-		System.out.printf("Number = %d%n", number);
-		System.out.printf("Salary = U$ %.2f", salary);
+		sum = (number1 * value1) + (number2 * value2);
+		
+		System.out.printf("VALOR A PAGAR: R$ %.2f", sum);	
+		
 		
 	}
 
