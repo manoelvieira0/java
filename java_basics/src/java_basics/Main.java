@@ -8,15 +8,18 @@ public class Main {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int number;
+		int a, b;
 		
-		System.out.println("Informe um número: ");
-		number = sc.nextInt();
+		System.out.println("Informe um número a: ");
+		a = sc.nextInt();
 		
-		if(number % 2 == 0) {
-			System.out.println("PAR");
+		System.out.println("Informe um número b: ");
+		b = sc.nextInt();
+		
+		if(a % b == 0 || b % a == 0) {
+			System.out.println("SÃO MÚLTIPLOS");
 		} else {
-			System.out.println("IMPAR");
+			System.out.println("NÃO SÃO MÚLTIPLOS");
 		}
 		
 		sc.close();
