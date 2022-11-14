@@ -22,8 +22,6 @@ public class Main {
 			System.out.println("Intervalo (25,50)");
 		} else if (valor >= 50 && valor < 75) {
 			System.out.println("Intervalo (50,75)");
-		} else if (valor >= 75 && valor <= 100) {
-			System.out.println("Intervalo (75,100)");
 		}
 		
 		sc.close();
