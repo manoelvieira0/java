@@ -1,0 +1,26 @@
+package java_basics;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int codigo, quantidade;
+		double valor;
+		
+		System.out.println("Informe o código do produto: ");
+		codigo = sc.nextInt();
+		
+		System.out.println("Informe a quantidade: ");
+		quantidade = sc.nextInt();
+		
+		
+		
+		sc.close();
+
+	}
+
+}

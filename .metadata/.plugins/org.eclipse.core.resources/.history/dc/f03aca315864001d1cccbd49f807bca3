@@ -30,18 +30,6 @@ public class Main {
 			total = quantidade * xsalada;
 			System.out.printf("Total: R$ %.2f%n", total);
 		}
-		else if (codigo == 3){
-			total = quantidade * xbacon;
-			System.out.printf("Total: R$ %.2f%n", total);
-		}
-		else if (codigo == 4){
-			total = quantidade * torrada;
-			System.out.printf("Total: R$ %.2f%n", total);
-		}
-		else if (codigo == 5){
-			total = quantidade * refrigerante;
-			System.out.printf("Total: R$ %.2f%n", total);
-		}
 		
 		sc.close();
 
