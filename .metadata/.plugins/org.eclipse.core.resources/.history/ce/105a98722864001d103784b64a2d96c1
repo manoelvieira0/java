@@ -12,16 +12,14 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 		int number, hour;
-		double value, salary;
+		double value;
 		
 		number = sc.nextInt();
 		hour = sc.nextInt();
 		value = sc.nextDouble();
 		
-		salary = value * hour;
-		
 		System.out.printf("Number = %d%n", number);
-		System.out.printf("Salary = U$ %.2f", salary);
+		System.out.printf("Salary = U$ %.2f", value);
 		
 	}
 
