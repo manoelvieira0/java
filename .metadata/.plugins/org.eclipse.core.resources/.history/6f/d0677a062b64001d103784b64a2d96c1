@@ -24,11 +24,11 @@ public class Main {
 		quadrado = Math.pow(b, 2);
 		arearetangulo = a * b;
 		
-		System.out.printf("Triângulo: %.3f%n", trianguloRetangulo);
-		System.out.printf("Circulo: %.3f%n", raio);
-		System.out.printf("Trapezio: %.3f%n", trapezio);
-		System.out.printf("Quadrado: %.3f%n", quadrado);
-		System.out.printf("Retângulo: %.3f%n", arearetangulo);
+		System.out.printf("Triângulo: %.3f", trianguloRetangulo);
+		System.out.printf("Circulo: %.3f", raio);
+		System.out.printf("Trapezio: %.3f", trapezio);
+		System.out.printf("Quadrado: %.3f", quadrado);
+		System.out.printf("Retângulo: %.3f", arearetangulo);
 
 		
 		
