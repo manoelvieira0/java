@@ -13,12 +13,6 @@ public class Main {
 		System.out.println("Informe um número: ");
 		number = sc.nextInt();
 		
-		if (number >= 0) {
-			System.out.println("POSITIVO");
-		} else {
-			System.out.println("NEGATIVO");
-		}
-		
 		sc.close();
 
 	}

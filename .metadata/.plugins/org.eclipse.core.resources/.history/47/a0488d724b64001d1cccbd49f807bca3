@@ -1,0 +1,37 @@
+package java_basics;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double a, b, c;
+		double trianguloRetangulo, raio, trapezio, quadrado, arearetangulo;
+		
+		a = sc.nextDouble();
+		b = sc.nextDouble();
+		c = sc.nextDouble();
+		
+		trianguloRetangulo = (a * c) / 2;
+		raio = 3.14159 * Math.pow(c, 2);
+		trapezio = (a + b) * c / 2;
+		quadrado = Math.pow(b, 2);
+		arearetangulo = a * b;
+		
+		System.out.printf("Triângulo: %.3f%n", trianguloRetangulo);
+		System.out.printf("Circulo: %.3f%n", raio);
+		System.out.printf("Trapezio: %.3f%n", trapezio);
+		System.out.printf("Quadrado: %.3f%n", quadrado);
+		System.out.printf("Retângulo: %.3f%n", arearetangulo);
+
+		
+		
+	}
+
+}

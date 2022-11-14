@@ -8,17 +8,17 @@ public class Main {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int number;
+		int hora;
 		
-		System.out.println("Informe um número: ");
-		number = sc.nextInt();
+		System.out.println("Quantas Horas? ");
+		hora = sc.nextInt();
 		
-		if (number >= 0) {
-			System.out.println("POSITIVO");
+		if(hora < 12) {
+			System.out.println("Bom dia");
 		} else {
-			System.out.println("NEGATIVO");
+			System.out.println("Boa tarde");
 		}
-		
+
 		sc.close();
 
 	}
