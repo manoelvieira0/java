@@ -8,10 +8,10 @@ public class Main {
 
 		Scanner sc = new Scanner(System.in);
 		
-		int num1, num2, sum;
+		double num1, num2, sum;
 		
-		num1 = sc.nextInt();
-		num2 = sc.nextInt();
+		num1 = sc.nextDouble();
+		num2 = sc.nextDouble();
 		
 		sum = num1 + num2;
 		
