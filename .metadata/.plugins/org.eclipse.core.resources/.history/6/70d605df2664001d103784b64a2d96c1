@@ -13,7 +13,6 @@ public class Main {
 		
 		double pi, raio, area;
 		
-		System.out.println("Informe o valor do raio: ");
 		raio = sc.nextDouble();
 		pi = 3.14159;
 		
