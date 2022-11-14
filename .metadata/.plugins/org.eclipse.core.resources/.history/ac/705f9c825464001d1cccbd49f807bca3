@@ -13,10 +13,10 @@ public class Main {
 		System.out.println("Informe um número: ");
 		number = sc.nextInt();
 		
-		if(number % 2 == 0) {
-			System.out.println("PAR");
+		if (number >= 0) {
+			System.out.println("POSITIVO");
 		} else {
-			System.out.println("IMPAR");
+			System.out.println("NEGATIVO");
 		}
 		
 		sc.close();
