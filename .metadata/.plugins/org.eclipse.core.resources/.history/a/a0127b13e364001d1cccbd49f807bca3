@@ -12,6 +12,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 
 		int x = sc.nextInt();
+		
 		String dia;
 		
 		switch (x) {
