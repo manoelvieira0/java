@@ -1,0 +1,20 @@
+package java_basics;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		String original = "Manoel vieira sabe Muito AbCdeF";
+		
+		String lower = original.toLowerCase();
+		String upper = original.toUpperCase();
+		
+		System.out.println(lower);
+		System.out.println(upper);
+
+
+	}
+
+}
