@@ -3,27 +3,37 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Retangulo;
+import entities.Employee;
 
 public class Program {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
-		
+
 		Scanner sc = new Scanner(System.in);
+
+		Employee emp = new Employee();
 		
-		Retangulo retangulo = new Retangulo();
+		System.out.print("Name: ");
+		emp.name = sc.nextLine();
+		System.out.print("Gross salary: ");
+		emp.grossSalary = sc.nextDouble();
+		System.out.print("Tax: ");
+		emp.tax = sc.nextDouble();
 		
-		System.out.println("Informe a largura do retângulo: ");
-		retangulo.width = sc.nextDouble();
+		System.out.println();
+		System.out.println("Employee: " + emp);
 		
-		System.out.println("Informe a altura do retângulo: ");
-		retangulo.height = sc.nextDouble();
+		System.out.println();
+		System.out.print("Which percentage to increase salary? ");
 		
-		System.out.printf("Area = %.2f%n", retangulo.area());
-		System.out.printf("Perímetro = %.2f%n", retangulo.perimetro());
-		System.out.printf("Diagonal = %.2f%n", retangulo.diagonal());
+		double percentage = sc.nextDouble();
 		
+		emp.increaseSalary(percentage);
+		
+		System.out.println();
+		System.out.println("Updated data: " + emp);
+
 		sc.close();
 	}
 
