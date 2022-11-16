@@ -12,8 +12,8 @@ public class Main {
 		int tentativa = sc.nextInt();
 		
 		while (tentativa != senha) {
-			System.out.println("Senha Inválida");
 			tentativa = sc.nextInt();
+			System.out.println("Senha Inválida");
 		}
 		
 		System.out.println("Acesso Permitido");
