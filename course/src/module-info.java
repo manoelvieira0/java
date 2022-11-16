@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author netin
+ *
+ */
+module course {
+}
