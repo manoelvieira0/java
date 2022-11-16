@@ -6,23 +6,34 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		String original = "Manoel vieira sabe Muito AbCdeF  ";
-		
-		String lower = original.toLowerCase();
-		String upper = original.toUpperCase();
-		String trim = original.trim();
-		String sub = original.substring(2);
-		String subtring = original.substring(2, 9);
-		String replace = original.replace("a", "x");
+		Scanner sc = new Scanner(System.in);
 
-		
-		System.out.println(lower);
-		System.out.println(upper);
-		System.out.println(trim);
-		System.out.println(sub);
-		System.out.println(subtring);
-		System.out.println(replace);
-		
+		System.out.println("Enter three numbers:");
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+
+		int higher = max(a, b, c);
+
+		showResult(higher);
+
+		sc.close();
+	}
+
+	public static int max(int x, int y, int z) {
+		int aux;
+		if (x > y && x > z) {
+			aux = x;
+		} else if (y > z) {
+			aux = y;
+		} else {
+			aux = z;
+		}
+		return aux;
+	}
+	
+	public static void showResult (int value) {
+		System.out.println("Higher = " + value);
 	}
 
 }
